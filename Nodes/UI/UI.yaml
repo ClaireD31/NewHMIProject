@@ -236,6 +236,18 @@ Children:
     - Name: Value
       Type: BaseDataVariableType
       DataType: Float
+      Value: 100.0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/NewHMIProject/Model/Variable1"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
     - Name: MinValue
       Type: BaseDataVariableType
       DataType: Float
