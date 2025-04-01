@@ -265,6 +265,11 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 90.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#f92222"
   - Name: TextBox1
     Type: TextBox
     Children:
