@@ -265,4 +265,9 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#f60606"
 - File: Screens/Screens.yaml
